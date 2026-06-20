@@ -16,4 +16,4 @@ class Producto:
 
     # Representación en texto del objeto producto
     def __str__(self):
-        return f"{self.nombre} - ${self.precio}"
+        return f"{self.nombre} - ${self.precio} ({self.categoria})"
